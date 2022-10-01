@@ -23,12 +23,14 @@ contract Election {
     );
 
     constructor () public {
-        addCandidate("Raju Bista","Bharatiya Janata Party");
-        addCandidate("Sankar Malakar","Indian National Congress");
-        addCandidate("Saman Pathak","Communist Party Of India (Marxist)");
-        addCandidate("Amar Singh Rai","All India Trinamool Congress");
-        addCandidate("Sudip Mandal","Bahujan Samaj Party");
-        addCandidate("NOTA","None of the above");
+        addCandidate("Rafael Lopez Aliaga", "Renovacion Popular");
+        addCandidate("George Forsyth", "Somos Peru");
+        addCandidate("Daniel Urresti", "Podemos Peru");
+        addCandidate("Elizabeth Leon", "Partido Frente de la Esperanza 2021");
+        addCandidate("Yuri Castro", "Peru Libre");
+        addCandidate("Gonzalo Alegria","Juntos por el Peru");
+        addCandidate("Omar Chehade","Alianza para el Progreso");
+        addCandidate("Blanco","Ningun candidato");
     }
 
     function addCandidate (string memory name,string memory party) private {
