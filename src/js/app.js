@@ -105,9 +105,10 @@ App = {
           var name = candidate[1];
           var voteCount = candidate[3];
           var party = candidate[2];
+          var image_url = candidate[4];
           // Render candidate Result
           var candidateTemplate =
-            `<tr><th>${id}</th><td>${name}</td><td>${party}</td><td>${voteCount}</td></tr>`;
+            `<tr><th>${id}</th><td>${name}</td><td>${party}</td><td>${voteCount}</td><td><img src="${image_url}" width="50" height="50"></td></tr>`;
           candidatesResults.append(candidateTemplate);
 
           // Render candidate ballot option
