@@ -12,16 +12,16 @@ nav.innerHTML = `
 <div class="collapse navbar-collapse" id="navbarNav">
   <ul class="navbar-nav ml-auto">
     <li class="nav-item">
-      <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+      <a class="nav-link" href="/">Inicio <span class="sr-only">(current)</span></a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="./how-it-works.html">How it Works</a>
+      <a class="nav-link" href="./how-it-works.html">Funcionamiento</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="./vote.html">Cast Vote</a>
+      <a class="nav-link" href="./vote.html">Votar</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="./blockvote-card.html">My BlockVote Card</a>
+      <a class="nav-link" href="./blockvote-card.html">Mi credencial</a>
     </li>
 
   </ul>
